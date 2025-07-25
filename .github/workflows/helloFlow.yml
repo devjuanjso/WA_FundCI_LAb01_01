@@ -2,8 +2,7 @@ name: Hello Flow
 
 on:
   schedule:
-    - cron: '* * * * *' 
-  workflow_dispatch:
+    - cron: '* * * * *'
 
 jobs:
   first-job:
