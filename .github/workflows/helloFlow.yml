@@ -2,7 +2,7 @@ name: Hello Flow 2
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   first-job:
